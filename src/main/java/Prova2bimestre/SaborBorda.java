@@ -37,7 +37,7 @@ public class SaborBorda {
         System.out.println("digite o numero da borda");
         System.out.println("1-Cheddar");
         System.out.println("2-Catupiry ");
-        System.out.println("3-Metade Nutella Metade Doce de Leite");
+        System.out.println("3- 1/2 Nutella 1/2 Doce de Leite");
         System.out.println("4-Nutella");
         controle = escolhaBorda.nextInt();
 

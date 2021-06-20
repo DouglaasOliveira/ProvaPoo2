@@ -14,7 +14,6 @@ import java.util.Scanner;
 public class Pedido {
    private int controle = 0;
    private double total, valor;;
-//Faz a comunicação com o usuário e salva as informações fornecidas
     public void pedido() {
         TamanhoPizza tamanhoPizza = new TamanhoPizza();
         ListaSabor sabor = new ListaSabor();
@@ -43,7 +42,7 @@ public class Pedido {
             System.out.println("6- Prestigio ");
             System.out.println("7- Salmao com alcaparras ");
             System.out.println("8- Camarao ");
-            System.out.println("9- AbacaZi com Canela ");
+            System.out.println("9- Abacaxi com Canela ");
             sabor.selecioneSabor(entradaSabor.nextInt());
             controle++;
         }
